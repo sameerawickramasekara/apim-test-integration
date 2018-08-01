@@ -623,7 +623,7 @@ def main():
         construct_db_config()
 
         # clone the repository
-        # clone_repo()
+        clone_repo()
 
         if test_mode == "DEBUG":
             checkout_to_tag(get_latest_tag_name(product_id))
